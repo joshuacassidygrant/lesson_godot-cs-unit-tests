@@ -2,11 +2,13 @@
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleGame2000", "ExampleGame2000.csproj", "{9EC8D292-84D5-4D02-8241-23DE36826ACC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleGame2000UnitTests", "..\ExampleGame2000UnitTests\ExampleGame2000UnitTests.csproj", "{DEC7A995-0D0D-4698-81A1-57CAC4FFB537}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-	Debug|Any CPU = Debug|Any CPU
-	ExportDebug|Any CPU = ExportDebug|Any CPU
-	ExportRelease|Any CPU = ExportRelease|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		ExportDebug|Any CPU = ExportDebug|Any CPU
+		ExportRelease|Any CPU = ExportRelease|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{9EC8D292-84D5-4D02-8241-23DE36826ACC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -15,5 +17,11 @@ Global
 		{9EC8D292-84D5-4D02-8241-23DE36826ACC}.ExportDebug|Any CPU.Build.0 = ExportDebug|Any CPU
 		{9EC8D292-84D5-4D02-8241-23DE36826ACC}.ExportRelease|Any CPU.ActiveCfg = ExportRelease|Any CPU
 		{9EC8D292-84D5-4D02-8241-23DE36826ACC}.ExportRelease|Any CPU.Build.0 = ExportRelease|Any CPU
+		{DEC7A995-0D0D-4698-81A1-57CAC4FFB537}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEC7A995-0D0D-4698-81A1-57CAC4FFB537}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEC7A995-0D0D-4698-81A1-57CAC4FFB537}.ExportDebug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEC7A995-0D0D-4698-81A1-57CAC4FFB537}.ExportDebug|Any CPU.Build.0 = Debug|Any CPU
+		{DEC7A995-0D0D-4698-81A1-57CAC4FFB537}.ExportRelease|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEC7A995-0D0D-4698-81A1-57CAC4FFB537}.ExportRelease|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 EndGlobal
