@@ -11,7 +11,7 @@ public partial class PathfinderService
 		 * map is a 2D array of integers that represent the "cost" of travelling to that tile at x, y.
 		 * e.g.: 
 		 * int[,] map = {
-         *   {1,10, 1},
+         *   {1, 10,1},
          *   {2,-1, 2},
          *   {2, 2, 2}
          * };
